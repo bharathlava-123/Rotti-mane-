@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#7b3f18">
+<title>Roti Mane</title>
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;font-family:Georgia,serif;background:#f7edd8;color:#3d2415}
+  .app{max-width:480px;margin:auto;min-height:100vh;background:#fffaf0}
+  header{background:#7b3f18;color:#fff7e8;padding:30px 22px;text-align:center;border-bottom:7px solid #c88a2b}
+  .leaf{font-size:28px}
+  h1{margin:5px 0;font-size:38px;letter-spacing:1px}
+  .tag{font-family:Arial,sans-serif;font-size:14px;letter-spacing:2px}
+  section{padding:22px}
+  h2{color:#7b3f18;text-align:center;margin:4px 0 18px}
+  .card{background:#fff;border:1px solid #e4c995;border-radius:16px;padding:15px;margin:10px 0;display:flex;justify-content:space-between;align-items:center;box-shadow:0 3px 10px #00000010}
+  .name{font-size:18px;font-weight:bold}
+  .price{font-weight:bold;color:#7b3f18;font-family:Arial,sans-serif}
+  .info{line-height:1.7;text-align:center;background:#f2dfb8;border-radius:16px;padding:18px}
+  .buttons{display:flex;gap:10px;margin-top:15px}
+  a.btn{flex:1;text-align:center;text-decoration:none;padding:13px;border-radius:10px;background:#7b3f18;color:white;font-family:Arial,sans-serif;font-weight:bold}
+  a.map{background:#c88a2b;color:#3d2415}
+  footer{text-align:center;padding:20px;background:#7b3f18;color:#fff7e8;font-family:Arial,sans-serif;font-size:13px}
+</style>
+</head>
+<body>
+<div class="app">
+<header>
+  <div class="leaf">🌾</div>
+  <h1>Roti Mane</h1>
+  <div class="tag">TRADITIONAL KARNATAKA FOOD</div>
+</header>
+
+<section>
+  <h2>🍽️ Our Menu</h2>
+  <div class="card"><span class="name">Akki Rotti</span><span class="price">₹12</span></div>
+  <div class="card"><span class="name">Jola Rotti</span><span class="price">₹12</span></div>
+  <div class="card"><span class="name">Ragi Rotti</span><span class="price">₹12</span></div>
+  <div class="card"><span class="name">Sajje Rotti</span><span class="price">₹12</span></div>
+  <div class="card"><span class="name">Chapathi</span><span class="price">₹12</span></div>
+  <div class="card"><span class="name">Chutneys</span><span class="price">₹40</span></div>
+  <div class="card"><span class="name">Soppu Palya</span><span class="price">₹30</span></div>
+  <div class="card"><span class="name">Yenagayi</span><span class="price">₹30</span></div>
+  <div class="card"><span class="name">Kaalu Palya</span><span class="price">₹30</span></div>
+  <div class="card"><span class="name">Vegetable Palya</span><span class="price">₹30</span></div>
+</section>
+
+<section>
+  <h2>📍 Visit Roti Mane</h2>
+  <div class="info">
+    <strong>#66, 1st Cross</strong><br>
+    Jayalakshmipuram, Mysore<br><br>
+    <strong>7676500870</strong>
+    <div class="buttons">
+      <a class="btn" href="tel:7676500870">📞 Call</a>
+      <a class="btn map" href="https://www.google.com/maps/search/?api=1&query=Roti+Mane%2C+%2366%2C+1st+Cross%2C+Jayalakshmipuram%2C+Mysore" target="_blank">📍 Directions</a>
+    </div>
+  </div>
+</section>
+
+<footer>Authentic Karnataka flavours • Roti Mane</footer>
+</div>
+</body>
+</html>
